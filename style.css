@@ -1,0 +1,110 @@
+body{
+    background-color: grey;    
+     
+}
+form{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: 70px;
+    padding: 40px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in;
+    margin-left: 20px;
+    height: auto;
+}
+.reg{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-style: double;
+    width: 200px;
+    margin-left: 200px;
+   
+}
+.reg:hover{
+    color: green;
+}
+form:hover{
+   box-shadow: 5px 5px 10px aqua;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#username{
+    margin-left: 20px;
+}
+#email{
+    margin-left: 43px;
+}
+#password{
+    margin-left: 20px;
+}
+#city{
+    margin-left: 50px;
+    width: 85%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: purple;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-style:double ;
+}
+button{
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    border: none;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.details{
+    width: 600px;
+    margin-left:720px ;
+    margin-top: 2px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -405px;
+    transition: box-shadow 0.3s ease-in;
+    height: 388px;
+}
+.details:hover{
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+p{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 5px;
+    transition: box-shadow 0.3s ease-in;
+    border-radius: 10px;
+}
+p:hover{
+    background-color: lightgrey;
+    
+    box-shadow:   0 8px 20px rgba(0,0,0,0.4);;
+}

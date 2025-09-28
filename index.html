@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration From</h1>
+    <form  onsubmit="validateForm()" id="registerForm">
+        <p class="reg">Register Here</p>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="city">City:</label>
+        <select id="city"  name="city" required>
+        <option class="selectcity" value="select city" >select city</option>
+        <option value="pune">Pune</option>
+        <option value="pune">Mumbai</option>
+        <option value="pune">Satara</option>
+        <option value="pune">Sangli</option>
+        </select>
+        <br>
+        <button onclick="showmsg()" type="check">Register</button>
+    </form>
+    <div class="details">
+     <h3>Details</h3>
+     <p id="DetialName"> <strong>Name:</strong></p><hr>
+     <p id="DetialEmail"> <strong>Email:</strong></p><hr>
+     <p id="DetialPassword"> <strong> ShowPassword:</strong></p><hr>
+     <p id="DetialCity"> <strong>City:</strong></p>
+
+     <button onclick="refreshAndAlert()">Refresh</button>
+     </div>
+
+     <script src="./script.js"></script>
+   
+</body>
+</html>
